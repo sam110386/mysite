@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<!-- Head BEGIN -->
+<head>
+	<meta charset="utf-8">
+	<title>Semantic Global Services</title>
+
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<meta content="Semantic Global Services" name="description">
+	<meta content="Semantic, IT service,Web Development,IOS development,Android Development,SEO,Web Content" name="keywords">
+	<meta content="Semantic Global Services" name="author">
+
+	<meta property="og:site_name" content="Semantic Global Services">
+	<meta property="og:title" content="Client Satisfaction is our Moto">
+	<meta property="og:description" content="Client Satisfaction is our Moto">
+	<meta property="og:type" content="IT, Software">
+	<meta property="og:image" content="-CUSTOMER VALUE-"><!-- link to image for socio -->
+	<meta property="og:url" content="http://www.semanticglobal.com">
+
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Fonts START -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all" rel="stylesheet" type="text/css">
+	<!-- Fonts END -->
+
+
+	
+	<!-- <?php echo $this->Html->css($this->Html->url('assets/global/plugins/font-awesome/css/font-awesome.min.css', true));?> -->
+	<link rel="stylesheet" href="assets/global/plugins/font-awesome/css/font-awesome.min.css" />
+
+	<!-- Global styles START -->          
+	<!-- <?php echo $this->Html->css($this->Html->url('assets/global/plugins/bootstrap/css/bootstrap.min.css', true));?> -->
+	<link rel="stylesheet" href="assets/global/plugins/bootstrap/css/bootstrap.min.css" />
+
+	<!-- Global styles END --> 
+
+	<!-- Page level plugin styles START -->
+	<link rel="stylesheet" href="assets/global/plugins/fancybox/source/jquery.fancybox.css" />
+
+	<link rel="stylesheet" href="assets/global/plugins/carousel-owl-carousel/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="assets/global/plugins/slider-revolution-slider/rs-plugin/css/settings.css" />
+
+	<!-- Page level plugin styles END -->
+
+	<!-- Theme styles START -->
+
+	<link rel="stylesheet" href="assets/global/css/components.css" />
+
+	<link rel="stylesheet" href="assets/frontend/layout/css/style.css" />
+	
+	<link rel="stylesheet" href="assets/frontend/pages/css/style-revolution-slider.css" />
+	<link rel="stylesheet" href="assets/frontend/layout/css/style-responsive.css" />
+	<link rel="stylesheet" href="assets/frontend/layout/css/themes/red.css" />
+	<link rel="stylesheet" href="assets/frontend/layout/css/custom.css" />
+	<!-- Theme styles END -->
+</head>
+<!-- Head END -->
+
+<!-- Body BEGIN -->
+<body class="corporate">
+	<div id="app" ></div>
+
+	<!-- Load javascripts at bottom, this will reduce page load time -->
+	<!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
+	<!--[if lt IE 9]>
+		<script src="../..assets/global/plugins/respond.min.js"></script>
+	<![endif]--> 
+
+
+	<script src="assets/global/plugins/jquery.min.js"></script>
+	<script src="assets/global/plugins/jquery-migrate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+	<!-- <script src="assets/frontend/layout/scripts/back-to-top.js"></script>   -->
+
+	<!-- END CORE PLUGINS -->
+
+	<!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
+	<script src="assets/global/plugins/fancybox/source/jquery.fancybox.pack.js"></script>  
+	<script src="assets/global/plugins/carousel-owl-carousel/owl-carousel/owl.carousel.min.js"></script>  
+
+	<!-- BEGIN RevolutionSlider -->  
+	<script src="assets/global/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+	<script src="assets/global/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+	<script src="assets/frontend/pages/scripts/revo-slider-init.js"></script>
+
+	<!-- END RevolutionSlider -->
+	<script src="assets/frontend/layout/scripts/layout.js" ></script>
+
+
+	<script type="text/javascript">
+		jQuery(document).ready(function() {
+			Layout.init();    
+			Layout.initOWL();
+			RevosliderInit.initRevoSlider();
+			// Layout.initTwitter();
+			Layout.initFixHeaderWithPreHeader(); /* Switch On Header Fixing (only if you have pre-header) */
+			Layout.initNavScrolling(); 
+		});
+	</script>
+	<!-- END PAGE LEVEL JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>
