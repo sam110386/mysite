@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 export default class About extends Component {
 	render(){
 		return(
-			<div class="main">
-				<div class="container">
-					<div class="row margin-bottom-40">
-				  	<div class="col-md-12 col-sm-12">
+			<div className="main">
+				<div className="container">
+					<div className="row margin-bottom-40">
+				  	<div className="col-md-12 col-sm-12">
 							<h1>About Us </h1>
-							<div class="content-page">
+							<div className="content-page">
 								<p><strong>Semantic Global Services – Know More About Company</strong></p>
 								<p>Sematic Global is one amongst reputed companies working in India not for so long but with 100% dedication. The brand has expertise to deliver best web design, web development, mobile app development, graphic designing and much more so that a business can get complete solution from single platform. High quality and un-compromised services for every type of business at Semantic global are always helpful to make a direct and simplified platform to get connected with customers.</p>
 								<p><strong>Why Us</strong></p>
